@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:ital,wght@1,200&family=Original+Surfer&display=swap');
+
+
+body{
+    background-color: green;
+}
+p{
+    color: blue;
+    text-align: center;
+    background-color: grey;
+}
+
+h1{
+    text-align: end;
+}
+
+/*Con el # utilizo el selector de id para darle estilos a un unico elementos*/
+#titulo3{
+    color: white;
+}
+
+/*Con el . utlizo el selector de clase para darle estilos a varios elementos que contegan el nombre de la clase*/
+.titulo4{
+    color: blue;
+    font-size: 20px;
+    font-family: cursive;
+}
+
