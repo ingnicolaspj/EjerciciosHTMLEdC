@@ -1,0 +1,31 @@
+/*Selectores de tipo(p,h1,a,div,span,i,b,strong)*/
+
+h1{
+    color: green;
+}
+
+h1{
+    color: indigo;
+}
+
+h1{
+    color: yellow;
+}
+
+[miatributo="parrafo"]{
+    font-size: 25px;
+    background-color: orange;
+}
+.mi-sub:hover{
+    color:red;
+    background-color: orange;
+    font-size: 52px;
+}
+h2 p span{
+    font-size: 16px;
+    color: blue;
+}
+
+h2 p{
+    color:green;
+}
