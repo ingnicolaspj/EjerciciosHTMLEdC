@@ -1,0 +1,30 @@
+.static{
+    position:static;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+.relative{
+    position: relative;
+    /* left:100px;
+    bottom:100px; */
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+.absolute{
+    position: absolute;
+    left: 50px;
+    top:100px;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+.fixed{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}

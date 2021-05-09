@@ -1,0 +1,52 @@
+div{
+    width: 250px;
+    height: 500px;
+    background-color: rgba(107, 107, 230, 0.842);
+    overflow-y: scroll;
+}
+
+.static{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    z-index:1000;
+}
+.absolute{
+    position: absolute;
+    left: 50px;
+    top:10px;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    z-index: 2000;
+}
+
+h1{
+    display: inline;    
+    background-color: lightcoral;
+}
+a{
+    display: block;
+    background-color: lightcoral;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: black;
+}
+
+/* .caja1{
+    position: relative;
+    top:100px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px dotted lightblue;
+}
+.caja1__parrafo1{
+    position: inherit;
+    background-color: orange;
+    text-align: center;
+} */
